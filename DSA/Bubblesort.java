@@ -17,14 +17,17 @@ public class Bubblesort{
         int arr[]=new int[10];
         System.out.println("Enter the elements of the array");
         for(int i=0;i<10;i++){
-            arr[i]=sc.nextint();
+            arr[i]=sc.nextInt();
         }
         System.out.println("ärray before bubble sort");
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<10;i++){
             System.out.println(arr[i]);
         }
         System.out.println();
         bubbleSort(arr);
-        System.out.println("after bubble sort");
+        System.out.println(" Array after bubble sort");
+        for(int i=0;i<10;i++){
+            System.out.println(arr[i]);
+        }
         }
     }
