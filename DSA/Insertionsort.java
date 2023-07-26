@@ -4,7 +4,7 @@ public class Insertionsort{
         for(int j=1;j<n;j++){
             int key=array[j];
             int i=j-1;
-            while((i>-1)^&&(array[i]>key)){
+            while((i>-1)&&(array[i]>key)){
                 array[i+1]=array[i];
                 i--;
             }
@@ -15,6 +15,13 @@ public class Insertionsort{
 public static void main(String[] args) {
     int[] arr1={9,14,3,2,48,11,58,22};
     System.out.println("Before insertion Sort");
-    
+    for(int i=0;i<arr1.length;i++){
+        System.out.println(arr1[i]+" ");
+    }
+    insertionSort(arr1);
+    System.out.println("After insertion sort");
+        for(int i=0;i<arr1.length;i++){
+        System.out.println(arr1[i]+" ");
+    }
 }
 }
