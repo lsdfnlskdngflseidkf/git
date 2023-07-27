@@ -55,7 +55,7 @@ void printArray(int a[],int n){
     }
 }
 public static void main(String[] args) {
-    int a[]={11,22,33,44,55,66,77,88,99,00,44,22,43,9,00,44,22,43};
+    int a[]={11,22,33,44,55,66,77};
     int n=a.length;
     Merge_sort m1= new Merge_sort();
     System.out.println("Before Sorting  the array");
