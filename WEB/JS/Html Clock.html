@@ -1,0 +1,50 @@
+<html>
+<body>
+
+<table style="border: none; height: 36px;" align="center">
+    <tr>
+        <!-- clock -->
+        <td style="padding-right: 1px;">
+            <span style="font-size: 20px; font-weight: bold; color: #a80030;">{hh}</span>
+            <span style="font-size: 16px; font-weight: bold; color: #{flip:00:FF}ff006e;">:</span>
+            <span style="font-size: 20px; color: white;">{ii}</span>
+            <span style="font-size: 16px; font-weight: bold; color: #{flip:00:FF}ff006e;">:</span>
+
+              <span style="font-size: 16px; color: #a80030;">{ss}</span>
+
+        </td>
+        <!-- date and month -->
+        <td style="padding-left: 3px; padding-right: 4px;">
+            <span style="font-size: 20px; font-weight: bold; color: white;">{dd}</span>
+            <span style="font-size: 16px; color: #a80030;">/</span>
+            <span style="font-size: 20px; font-weight: bold; color: white;">{MMM}</span>
+        </td>
+        <!-- rounded divider -->
+        <td style="padding-left: 4px; padding-right: 4px;">
+            <span style="font-size: 20px; color: #a80030;">×</span>
+        </td>
+        <!-- weekday name -->
+        <td style="padding-left: 4px;">
+            <span style="font-size: 20px; font-weight: bold; color: white;">{DDD}</span>
+        </td>
+        <!-- seconds -->
+        <td style="padding-left: 4px;">
+          
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-left:4px;">
+            <span style="font-size: 20px; font-weight: bold; color: white;">Day <span style="font-size: 20px; font-weight:bold; color:#a80030">{dy}</span> of {yy}
+            </span>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-left:4px;">
+            <span style="font-size: 20px; font-weight: bold; color: white;">Week
+            </span>
+        <span style="font-size: 20px; font-weight: bold; color: #a80030;"> {wy}</span>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
